@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: jos
+Implementation-Version: 1.0.0-SNAPSHOT
+Built-By: ling_qin_67
+Implementation-Vendor-Id: com.imall
+Build-Jdk: 1.8.0_131
+Implementation-URL: http://projects.spring.io/spring-boot/jos/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

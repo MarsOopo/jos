@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!-- Created with MTool.  -->
+<mapper namespace="com.imall.jos.bean.dao.ExampleDao">
+
+    <!-- <resultMap id="adminMap" type="AdminEntity">
+        <id property="id" column="id" jdbcType="BIGINT"/>
+        <result property="password" column="password" jdbcType="VARCHAR"/>
+        <result property="userId" column="user_id" jdbcType="BIGINT"/>
+    </resultMap>
+
+    所有字段 
+    <sql id="sqlColumns">
+		id, password, user_id, username, nickname, email, profile_img, groups, remark, create_time,
+		create_user, create_username, update_time, update_user, update_username, yn
+	</sql>
+
+    <sql id="addColumns">
+		password, user_id, username, nickname, email, profile_img, groups, remark, create_time,
+		create_user, create_username, update_time, update_user, update_username, yn
+	</sql> -->
+
+    <!-- 单条新增数据  -->
+    <insert id="insertExample" parameterType="ExampleEntity">
+        INSERT INTO testtable
+			 (
+			 aaa,
+			 bbb
+			 )
+			 VALUE
+			 (
+			 #{aaa, jdbcType=VARCHAR},
+			 #{bbb, jdbcType=VARCHAR}
+			 )
+    </insert>
+
+</mapper>
