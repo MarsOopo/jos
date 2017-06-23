@@ -31,8 +31,8 @@ public class ExampleController {
 	@ResponseBody
 	public int addExample(){
 		ExampleEntity exampleEntity = new ExampleEntity();
-		exampleEntity.setAaa("777");
-		exampleEntity.setBbb("888");
+		exampleEntity.setAaa("555");
+		exampleEntity.setBbb("666");
 		if(iExampleService.insertExample(exampleEntity)){
 			return 200;
 		}

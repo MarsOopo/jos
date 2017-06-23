@@ -27,10 +27,10 @@
 	</settings>
 
 <typeAliases>
-	<typeAlias alias="ExampleEntity" type="com.imall.jos.bean.entity.ExampleEntity"/>
+	<typeAlias alias="exampleEntity" type="com.imall.jos.bean.entity.ExampleEntity"/>
 </typeAliases>
 
-<mappers>
+<!-- mappers>
 	<mapper resource="mybatis/ExampleMapper.xml"/>
-</mappers>
+</mappers -->
 </configuration>

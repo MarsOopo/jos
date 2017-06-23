@@ -21,7 +21,7 @@
 	</sql> -->
 
     <!-- 单条新增数据  -->
-    <insert id="insertExample" parameterType="ExampleEntity">
+    <insert id="insertExample" parameterType="com.imall.jos.bean.entity.ExampleEntity">
         INSERT INTO testtable
 			 (
 			 aaa,
